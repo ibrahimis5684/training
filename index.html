@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Conpatible" content="IE-edge">
+    <title>Document</title>
+    <!-- print css -->
+    <link rel="stylesheet" href="print-style.css" media="print">
+    <!--vendors file-->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <!--resources file-->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsiv.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+    <div id="loader-box">
+        <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    <!-- Groom's Information -->
+    <div id="groom" class="form-mr main-form">
+        <h2>Groom's Information</h2>
+        <div class="form">
+            <div class="input-box">
+                <label for="fullNameInput">full name</label>
+                <input type="text" id="fullNameInput" placeholder="Enter full name" required>
+            </div>
+            <div class="input-box">
+                <label for="fnInput">father's name</label>
+                <input type="text" id="fnInput" placeholder="Enter father's name" required>
+            </div>
+            <div class="input-box">
+                <label for="mnInput">mother's name</label>
+                <input type="text" id="mnInput" placeholder="Enter mother's name" required>
+            </div>
+            <div class="input-box">
+                <label for="dobInput">date of birth</label>
+                <input type="date" id="dobInput" placeholder="Enter date of birth" required>
+            </div>
+            <div class="input-box">
+                <label for="villInput">village</label>
+                <input type="text" id="villInput" placeholder="Enter village" required>
+            </div>
+            <div class="input-box add-box">
+                <div class="police">
+                    <label for="psInput">police station</label>
+                    <input type="text" id="psInput" placeholder="Enter police station" required>
+                </div>
+                <div class="dis">
+                    <label for="disInput">district</label>
+                <select name="dis" id="disInput" style="background: transparent;">
+                    <option value="select">select</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Faridpur">Faridpur</option>
+                    <option value="Gazipur">Gazipur</option>
+                    <option value="Gopalganj">Gopalganj</option>
+                    <option value="Jamalpur">Jamalpur</option>
+                    <option value="Kishoreganj">Kishoreganj</option>
+                    <option value="Madaripur">Madaripur</option>
+                    <option value="Manikganj">Manikganj</option>
+                    <option value="Munshiganj">Munshiganj</option>
+                    <option value="Mymensingh">Mymensingh</option>
+                    <option value="Narayanganj">Narayanganj</option>
+                    <option value="Narsingdi">Narsingdi</option>
+                    <option value="Netrokona">Netrokona</option>
+                    <option value="Rajbari">Rajbari</option>
+                    <option value="Shariatpur">Shariatpur</option>
+                    <option value="Sherpur">Sherpur</option>
+                    <option value="Tangail">Tangail</option>
+                    <option value="Bogra">Bogra</option>
+                    <option value="Joypurhat">Joypurhat</option>
+                    <option value="Naogaon">Naogaon</option>
+                    <option value="Natore">Natore</option>
+                    <option value="Nawabganj">Nawabganj</option>
+                    <option value="Pabna">Pabna</option>
+                    <option value="Rajshahi">Rajshahi</option>
+                    <option value="Sirajgonj">Sirajgonj</option>
+                    <option value="Dinajpur">Dinajpur</option>
+                    <option value="Gaibandha">Gaibandha</option>
+                    <option value="Kurigram">Kurigram</option>
+                    <option value="Lalmonirhat">Lalmonirhat</option>
+                    <option value="Nilphamari">Nilphamari</option>
+                    <option value="Panchagarh">Panchagarh</option>
+                    <option value="Rangpur">Rangpur</option>
+                    <option value="Thakurgaon">Thakurgaon</option>
+                    <option value="Barguna">Barguna</option>
+                    <option value="Barisal">Barisal</option>
+                    <option value="Bhola">Bhola</option>
+                    <option value="Jhalokati">Jhalokati</option>
+                    <option value="Patuakhali">Patuakhali</option>
+                    <option value="Pirojpur">Pirojpur</option>
+                    <option value="Bandarban">Bandarban</option>
+                    <option value="Brahmanbaria">Brahmanbaria</option>
+                    <option value="Chandpur">Chandpur</option>
+                    <option value="Chittagong">Chittagong</option>
+                    <option value="Comilla">Comilla</option>
+                    <option value="Cox's Bazar">Cox's Bazar</option>
+                    <option value="Feni">Feni</option>
+                    <option value="Khagrachari">Khagrachari</option>
+                    <option value="Lakshmipur">Lakshmipur</option>
+                    <option value="Noakhali">Noakhali</option>
+                    <option value="Rangamati">Rangamati</option>
+                    <option value="Habiganj">Habiganj</option>
+                    <option value="Maulvibazar">Maulvibazar</option>
+                    <option value="Sunamganj">Sunamganj</option>
+                    <option value="Sylhet">Sylhet</option>
+                    <option value="Bagerhat">Bagerhat</option>
+                    <option value="Chuadanga">Chuadanga</option>
+                    <option value="Jessore">Jessore</option>
+                    <option value="Jhenaidah">Jhenaidah</option>
+                    <option value="Khulna">Khulna</option>
+                    <option value="Kushtia">Kushtia</option>
+                    <option value="Magura">Magura</option>
+                    <option value="Meherpur">Meherpur</option>
+                    <option value="Narail">Narail</option>
+                    <option value="Satkhira">Satkhira</option>
+                </select>
+                </div>
+            </div>
+            <div class="input-box">
+                <button onclick="location.href='#bride'" class="showLoader" id="groomButton">next</button>
+            </div>
+        </div>
+    </div>
+    <!-- bride information -->
+    <div id="bride" class="form-mrs main-form">
+        <h2>bride information</h2>
+        <div class="form">
+            <div class="input-box">
+                <label for="brFullNameInput">full name</label>
+                <input type="text" id="brFullNameInput" placeholder="Enter full name" required>
+            </div>
+            <div class="input-box">
+                <label for="brFnInput">father's name</label>
+                <input type="text" id="brFnInput" placeholder="Enter father's name" required>
+            </div>
+            <div class="input-box">
+                <label for="brmnInput">mother's name</label>
+                <input type="text" id="brmnInput" placeholder="Enter mother's name" required>
+            </div>
+            <div class="input-box">
+                <label for="brDobInput">date of birth</label>
+                <input type="date" id="brDobInput" placeholder="Enter date of birth" required>
+            </div>
+            <div class="input-box">
+                <label for="brvillInput">village</label>
+                <input type="text" id="brvillInput" placeholder="Enter village" required>
+            </div>
+            <div class="input-box add-box">
+                <div class="police">
+                    <label for="brPsInput">police station</label>
+                    <input type="text" id="brPsInput" placeholder="Enter police station" required>
+                </div>
+                <div class="dis">
+                    <label for="brDisInput">district</label>
+                <select name="dis" id="brDisInput">
+                    <option value="select">select</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Faridpur">Faridpur</option>
+                    <option value="Gazipur">Gazipur</option>
+                    <option value="Gopalganj">Gopalganj</option>
+                    <option value="Jamalpur">Jamalpur</option>
+                    <option value="Kishoreganj">Kishoreganj</option>
+                    <option value="Madaripur">Madaripur</option>
+                    <option value="Manikganj">Manikganj</option>
+                    <option value="Munshiganj">Munshiganj</option>
+                    <option value="Mymensingh">Mymensingh</option>
+                    <option value="Narayanganj">Narayanganj</option>
+                    <option value="Narsingdi">Narsingdi</option>
+                    <option value="Netrokona">Netrokona</option>
+                    <option value="Rajbari">Rajbari</option>
+                    <option value="Shariatpur">Shariatpur</option>
+                    <option value="Sherpur">Sherpur</option>
+                    <option value="Tangail">Tangail</option>
+                    <option value="Bogra">Bogra</option>
+                    <option value="Joypurhat">Joypurhat</option>
+                    <option value="Naogaon">Naogaon</option>
+                    <option value="Natore">Natore</option>
+                    <option value="Nawabganj">Nawabganj</option>
+                    <option value="Pabna">Pabna</option>
+                    <option value="Rajshahi">Rajshahi</option>
+                    <option value="Sirajgonj">Sirajgonj</option>
+                    <option value="Dinajpur">Dinajpur</option>
+                    <option value="Gaibandha">Gaibandha</option>
+                    <option value="Kurigram">Kurigram</option>
+                    <option value="Lalmonirhat">Lalmonirhat</option>
+                    <option value="Nilphamari">Nilphamari</option>
+                    <option value="Panchagarh">Panchagarh</option>
+                    <option value="Rangpur">Rangpur</option>
+                    <option value="Thakurgaon">Thakurgaon</option>
+                    <option value="Barguna">Barguna</option>
+                    <option value="Barisal">Barisal</option>
+                    <option value="Bhola">Bhola</option>
+                    <option value="Jhalokati">Jhalokati</option>
+                    <option value="Patuakhali">Patuakhali</option>
+                    <option value="Pirojpur">Pirojpur</option>
+                    <option value="Bandarban">Bandarban</option>
+                    <option value="Brahmanbaria">Brahmanbaria</option>
+                    <option value="Chandpur">Chandpur</option>
+                    <option value="Chittagong">Chittagong</option>
+                    <option value="Comilla">Comilla</option>
+                    <option value="Cox's Bazar">Cox's Bazar</option>
+                    <option value="Feni">Feni</option>
+                    <option value="Khagrachari">Khagrachari</option>
+                    <option value="Lakshmipur">Lakshmipur</option>
+                    <option value="Noakhali">Noakhali</option>
+                    <option value="Rangamati">Rangamati</option>
+                    <option value="Habiganj">Habiganj</option>
+                    <option value="Maulvibazar">Maulvibazar</option>
+                    <option value="Sunamganj">Sunamganj</option>
+                    <option value="Sylhet">Sylhet</option>
+                    <option value="Bagerhat">Bagerhat</option>
+                    <option value="Chuadanga">Chuadanga</option>
+                    <option value="Jessore">Jessore</option>
+                    <option value="Jhenaidah">Jhenaidah</option>
+                    <option value="Khulna">Khulna</option>
+                    <option value="Kushtia">Kushtia</option>
+                    <option value="Magura">Magura</option>
+                    <option value="Meherpur">Meherpur</option>
+                    <option value="Narail">Narail</option>
+                    <option value="Satkhira">Satkhira</option>
+                </select>
+                </div>
+            </div>
+            <div class="input-box">
+                <button id="backBrideButton" onclick="location.href='#groom'" class="back-button showLoader">back</button>
+                <button onclick="location.href='#kazi'" class="showLoader" id="brideButton">next</button>
+            </div>
+        </div>
+    </div>
+    <!-- Kazi Office Information -->
+    <div id="kazi" class="form-kazi main-form">
+        <h2>Kazi Office Information</h2>
+        <div class="form">
+            <div class="input-box">
+                <label for="mwInput">marriage was</label>
+                <input type="date" id="mwInput" placeholder="Enter marriage date" required>
+            </div>
+            <div class="input-box">
+                <label for="rdInput">registered date</label>
+                <input type="date" id="rdInput" placeholder="Enter registered date" required>
+            </div>
+            <div class="input-box">
+                <label for="bnInput">book number</label>
+                <input type="number" id="bnInput" placeholder="Enter book number" required>
+            </div>
+            <div class="input-box">
+                <label for="pnInput">page number</label>
+                <input type="number" id="pnInput" placeholder="Enter page number" required>
+            </div>
+            <div class="input-box">
+                <label for="yInput">in year</label>
+                <input type="number" id="yInput" placeholder="Enter year" required>
+            </div>
+            <div class="input-box">
+                <label for="doiInput">Date of Issue</label>
+                <input type="date" id="doiInput" placeholder="Enter Date of Issue" required>
+            </div>
+            <div class="input-box">
+                <button id="backKaziButton" onclick="location.href='#bride'" class="back-button showLoader">back</button>
+                <button onclick="location.href='#Certificate'" class="showLoader" id="kaziButton">next</button>
+            </div>
+        </div>
+    </div>
+    <!-- certificate -->
+    <div id="Certificate" class="form-a4">
+        <div id="a4-page">
+            <div class="row-1">
+                <h1>Government of the people’s Republic of Bangladesh.</h1>
+                <h3>Office of the Muslim marriage Registrar & kazi</h3>
+                <h2>BAROIKHALI UNION KAZI OFFICE</h2>
+                <span class="thana-dist">Sreenagar, Munshiganj.</span>
+                <h2 class="marriage">Marriage Certificate</h2>
+            </div>
+            <div class="row-2">
+                <div class="certificate-detail">
+                    <p>This is to certify that <input class="myInput" id="fillFullName" type="text">, son of <input class="myInput" id="fillFn" type="text">, & <input class="myInput" id="fillMn" type="text">, of Village: <input class="myInput" id="fillVill" type="text">, p.s: <input class="myInput" id="fillPs" type="text">, dist: <input class="myInput" id="fillDis" type="text">, Date of Birth <input class="myInput" id="fillDob" type="text">, Married with <input class="myInput" id="fillBrFullName" type="text">, Daughter of <input class="myInput" id="fillBrFn" type="text">, & <input class="myInput" id="fillBrMn" type="text">, of village: <input class="myInput" id="fillBrVill" type="text">, p.s: <input class="myInput" id="fillBrPs" type="text">, dist: <input class="myInput" id="fillBrDis" type="text">, date of birth <input class="myInput" id="fillBrDob" type="text">, the marriage was solemnized on <input class="myInput" id="fillMw" type="text">, and registered in my office on <input class="myInput" id="fillrd" type="text">, being Book No. <input class="myInput" id="fillBn" type="text">, in page No. <input class="myInput" id="fillPn" type="text">, in the year of <input class="myInput" id="fillY" type="text">, Date of Issue <input class="myInput" id="filDoi" type="text"></p>
+                </div>
+            </div>
+            <div class="kazi-sig-box">
+                <span class="kazi-nam">(MAW.MD BAHAUDDIN GAZI)</span>
+                <span>Muslim Marriage Registrar & Kazi</span>
+            </div>
+            <div id="buttons">
+                <button id="backCertiButton" onclick="location.href='#kazi'" class="back-button showLoader">back</button>
+                <button class="button-print" onclick="window.print()">Download & Print</button>
+            </div>
+        </div>
+        
+    </div>
+    <!--ja script-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="vendors/js/html5shiv-printshiv.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="resources/js/script.js"></script>
+</body>
+</html>
